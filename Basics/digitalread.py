@@ -1,7 +1,7 @@
 from machine import Pin
 from time import sleep
 
-button = Pin(13, Pin.IN)
+button = Pin(4, Pin.IN)
 
 while True:
   
