@@ -49,7 +49,6 @@ BME280_REGISTER_HUMIDITY_DATA = 0xFD
 
 class Device:
   """Class for communicating with an I2C device.
-
   Allows reading and writing 8-bit, 16-bit, and byte array values to
   registers on the device."""
 
